@@ -1,0 +1,220 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Menu */
+
+.menu-background {
+    position: fixed;
+    background-color: #01003B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mother-menu {
+    display: flex;
+    align-items: center;
+}
+
+.mother-menu img {
+    width: 90px;
+    height: 90px;
+}
+
+.mother-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mother-menu ul li {
+    margin: 8px;
+}
+
+.mother-menu ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+
+.mother-menu ul li a:hover {
+    background-color:#2667ff50;
+    border: 8px #2667ff50;
+    border-radius: 5px;
+    transition: .3s linear;
+}
+
+/* Titulos, Sub, e Paragrafos */
+
+.content-background h1, h2, h3 {
+    color: #01003B;
+}
+
+.content-background h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content-background h2 {
+    margin: 5px;
+    font-size: 28px;
+}
+
+.content-background h3 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.content-background p {
+    font-size: 20px;
+    max-width: 800px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+
+/* Indicie */
+
+#indicie {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+#indicie li {
+    display: inline-block;
+    margin: 8px;
+}
+
+#indicie li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#indicie li a:hover{
+    color: #2667FF;
+    transition: .3s linear;
+}
+
+/* Ficha Tecnica */ 
+
+#ficha {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fichatec li {
+    font-size: 22px;
+    max-width: 800px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+/* Editorial */
+
+#editorial {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.editorial p2 {
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+    max-width: 850px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.editorial p {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;  
+}
+
+/* contents X */
+
+.content-background {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+#content1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#content2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#content3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#content4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/* Biomed */
+
+.biomed li {
+    font-size: 20px;
+    max-width: 800px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+/* IA */
+
+
+.q   {
+    max-width: 800px;
+    padding: 10px;  
+    color: #01003B;
+    font-size: 23px;
+    font-weight: bold
+}
+
+.a {
+    max-width: 800px;
+    padding: 10px;
+    color: #2667FF;
+    font-size: 22px;
+    font-style: oblique;
+}
