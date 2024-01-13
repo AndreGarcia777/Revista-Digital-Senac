@@ -42,11 +42,12 @@ body {
 }
 
 .mother-menu ul li a {
+    font-size: 20px;
+    font-weight: 550;
     text-decoration: none;
     margin: 10px;
     color: white;
 }
-
 
 .mother-menu ul li a:hover {
     background-color:#2667ff50;
@@ -85,7 +86,6 @@ body {
     align-items: center;
     padding: 10px; 
 }
-
 
 /* Indicie */
 
@@ -129,7 +129,6 @@ body {
     padding: 10px;
 }
 
-
 /* Editorial */
 
 #editorial {
@@ -158,6 +157,7 @@ body {
 /* contents X */
 
 .content-background {
+    background-color: #2667ff09;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -186,7 +186,6 @@ body {
     margin-bottom: 15px;
 }
 
-
 /* Biomed */
 
 .biomed li {
@@ -199,9 +198,7 @@ body {
     padding: 10px;
 }
 
-
 /* IA */
-
 
 .q   {
     max-width: 800px;
@@ -217,4 +214,37 @@ body {
     color: #2667FF;
     font-size: 22px;
     font-style: oblique;
+}
+
+/* Footer */
+
+footer {
+    background-color:#01003B;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+footer h3, h4 {
+    color: #ffffff;
+    font-weight: 550;
+}
+
+footer h4 {
+    font-weight: 500;
+}
+
+footer a {
+    font-size: 18px;
+    text-decoration: none;
+    color:#2667FF;
+    font-weight: 500;
+}
+
+footer a:hover {
+    background-color:#2667ff50;
+    border: 8px #2667ff50;
+    border-radius: 5px;
+    transition: .3s linear;
 }
