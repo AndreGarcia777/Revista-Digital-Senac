@@ -87,6 +87,15 @@ body {
     padding: 10px; 
 }
 
+/* Solução para header não sobrepor o Indicie */
+
+#indicie-:before {
+    content: "";
+    display: block;
+    height: 100px; 
+    margin: -100px 0 0;
+}
+
 /* Indicie */
 
 #indicie {
